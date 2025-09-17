@@ -1,0 +1,28 @@
+.panel.top-expenses {
+  flex: 1;
+}
+
+.chart-small {
+  margin-top: 15px;
+}
+
+.legend-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  display: inline-block;
+}

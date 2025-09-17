@@ -1,0 +1,27 @@
+.card.charts-card {
+  background: #575757;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  flex: 1 1 320px;
+  min-height: 150px;
+  position: relative;
+}
+
+.empty-chart {
+  padding: 20px;
+  color: #c0c0c0;
+  text-align: center;
+}
+
+.recharts-pie-label-text {
+  fill: #fff !important;
+}
+
+.recharts-legend-item {
+  color: #c0c0c0 !important;
+}
+
+.recharts-tooltip-wrapper {
+  color: #333 !important;
+}
