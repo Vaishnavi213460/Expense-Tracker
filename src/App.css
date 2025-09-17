@@ -51,8 +51,15 @@ body {
   margin-top: 18px;
 }
 
+
 @media (max-width: 900px) {
-  .top-cards, .lists-row {
+  .top-cards,
+  .lists-row {
     flex-direction: column;
+  }
+  
+  .container {
+    padding: 10px;
+    margin: 10px auto;
   }
 }
